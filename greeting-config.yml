@@ -14,5 +14,7 @@ logging:
 greeting:
   displayFortune: true
 
+SPRING_PROFILES_ACTIVE=qa ./mvnw clean spring-boot:run
+
 quoteServiceURL: http://quote-service-qa-solstice.cfapps.io/quote
 
