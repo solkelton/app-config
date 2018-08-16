@@ -1,0 +1,18 @@
+security:
+  basic:
+    enabled: true
+
+management:
+  security:
+    enabled: true
+
+logging:
+  level:
+    io:
+      pivotal: INFO
+
+greeting:
+  displayFortune: true
+
+quoteServiceURL: http://quote-service-qa-solstice.cfapps.io/quote
+
