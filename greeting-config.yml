@@ -5,3 +5,13 @@ security:
 management:
   security:
     enabled: false
+
+logging:
+  level:
+    io:
+      pivotal: DEBUG
+
+greeting
+  display Fortune: false
+
+quoteServiceURL: http://quote-service-qa-solstice.cfapps.io/quote
