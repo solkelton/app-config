@@ -11,7 +11,7 @@ logging:
     io:
       pivotal: DEBUG
 
-greeting
+greeting:
   displayFortune: false
 
 quoteServiceURL: http://quote-service-qa-solstice.cfapps.io/quote
